@@ -1,0 +1,19 @@
+Algorithm,Target,Accuracy,Macro F1,Balanced Accuracy,Hamming Loss,Exact Match Ratio,MAE,RMSE,R2 Score
+Decision Tree,Risk Type,1.0,1.0,1.0,0.0,1.0,,,
+Decision Tree,Risk Response Plan,1.0,1.0,1.0,0.0,1.0,,,
+Random Forest,Risk Type,1.0,1.0,1.0,,,,,
+Logistic Regression,Risk Type,0.802,0.6942761650209219,0.7724526688825162,,,,,
+Svm,Risk Type,0.877,0.780675268795451,0.8206086729497329,,,,,
+Xgboost,Risk Type,1.0,1.0,1.0,,,,,
+Random Forest,Risk Response Plan,1.0,1.0,1.0,,,,,
+Logistic Regression,Risk Response Plan,0.802,0.6942761650209219,0.7724526688825162,,,,,
+Svm,Risk Response Plan,0.877,0.7809378329721599,0.8206086729497328,,,,,
+Xgboost,Risk Response Plan,1.0,1.0,1.0,,,,,
+Decision Tree,Risk Impact,,,,,,1.633,2.0447493733951845,0.06055731577789614
+Decision Tree,Risk Probability,,,,,,12.441,15.420408554898927,0.24930638762858282
+Random Forest,Risk Impact,,,,,,1.28559,1.4905326229237654,0.5008017056917734
+Svm,Risk Impact,,,,,,1.4472505355353864,1.759150278692362,0.3046619358937851
+Xgboost,Risk Impact,,,,,,1.3120700120925903,1.5325772762298584,0.47224199771881104
+Random Forest,Risk Probability,,,,,,9.575719999999999,11.172013605433893,0.6059658417469207
+Svm,Risk Probability,,,,,,12.569655201516373,15.293333046720496,0.2616279432341999
+Xgboost,Risk Probability,,,,,,9.869789123535156,11.585189819335938,0.5762816667556763
